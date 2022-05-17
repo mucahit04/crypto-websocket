@@ -1,6 +1,20 @@
 # CryptoWebsocket
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
+A live crypto coin rate tracker simple web app. Data is retrieved via rxjs websocketsubject from coincap.io. After a successful connection to the mentioned websocket service the data shown on a line chart. User can select one of the seven different coins to see its live changes on the line chart. 
+
+- Angular
+- rxjs webSocketSubject
+- Chart.js
+- ng2-charts 
+
+
+How to run:
+- clone the repository
+- npm install
+- ng serve
+- go to localhost:4200
+
+With this small app, I practiced usage of the websockets, rxjs webSocketSubject and Chart.js.
 
 ## Development server
 
